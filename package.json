@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js nodemon", // Or your start command
+    "start": "node app.js nodemon",
     "postinstall": "npm rebuild bcrypt --build-from-source"
     "dev": "nodemon app.js"
   },
